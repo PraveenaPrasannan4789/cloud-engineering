@@ -1,5 +1,13 @@
-AWS Lambda
-What is Lambda?
+### AWS Lambda
+## What is Lambda?
+Day to day lambda services are using.
+developers use lambda functions for serverless architecture
+
+Lambda ->points two major things->serverless and compute
+It is similar to ec2(virtual server), the difference is when we use lambda we dont 
+need to give all the information such as(16gb ram, 8 cpu(compute instances)), but in ec2 we have to give all the details.
+It will automatically scale.
+
 AWS Lambda is a serverless compute service.
 Instead of creating and managing a server, you upload your code and AWS runs it whenever it's needed.
 ________________________________________
