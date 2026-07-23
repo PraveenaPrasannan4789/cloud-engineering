@@ -8,6 +8,13 @@ It is similar to ec2(virtual server), the difference is when we use lambda we do
 need to give all the information such as(16gb ram, 8 cpu(compute instances)), but in ec2 we have to give all the details.
 It will automatically scale.
 
+Lambda-no ip address shown
+auto scalling
+takes care of hosting
+
+EC2-auto scalling enabled/disabled
+ip address subnet range you can control
+
 AWS Lambda is a serverless compute service.
 Instead of creating and managing a server, you upload your code and AWS runs it whenever it's needed.
 ________________________________________
