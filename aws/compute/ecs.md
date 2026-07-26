@@ -357,3 +357,53 @@ Monitor:
 - Keep container images small
 
 ---
+
+# Interview Questions
+
+## What is Amazon ECS?
+
+Amazon ECS is a managed AWS service for running and scaling Docker containers.
+
+---
+
+## What is the difference between Task and Service?
+
+Task:
+- A single running container instance
+
+Service:
+- Maintains the required number of running tasks
+
+---
+
+## What is Fargate?
+
+Fargate is a serverless compute engine for running ECS containers without managing EC2 servers.
+
+---
+
+## What is a Task Definition?
+
+A Task Definition is a configuration file that defines how a container should run.
+
+---
+
+## ECS Real World Example
+
+A company runs an online shopping website:
+
+```
+Customer
+ |
+CloudFront
+ |
+Application Load Balancer
+ |
+ECS Fargate
+ |
+Node.js API Containers
+ |
+RDS Database
+```
+
+ECS automatically creates more containers during high shopping traffic.
